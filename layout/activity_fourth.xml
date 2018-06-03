@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.co.hananda.atry.FourthActivity">
+
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:animateLayoutChanges="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></FrameLayout>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/penguins">
+            <TextView
+                android:id="@+id/TextViewHai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="20sp"
+                android:paddingTop="30dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textAlignment="center"
+                android:fontFamily="monospace"
+                android:text="Hai, silahkan pilih menu dibawah ya :D"/>
+
+            <Button
+                android:id="@+id/Button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_above="@id/Button2"
+                android:layout_centerHorizontal="true"
+                android:onClick="gotoSecondActivity"
+                android:text="A day to temember :)"
+                android:padding="10dp"
+                android:gravity="center"
+                android:focusable="true"
+                />
+            <Button
+                android:id="@+id/Button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_alignParentBottom="true"
+                android:text="Wishes"
+                android:onClick="gotoThirdActivity"/>
+        </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

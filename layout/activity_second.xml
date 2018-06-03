@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    android:padding="0dp"
+    tools:context="id.co.hananda.atry.SecondActivity">
+
+
+        <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+                
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/view_pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </android.support.v4.view.ViewPager>
+
+        <!--<ImageView-->
+            <!--android:id="@+id/ImageViewCake"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:src="@drawable/cake" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/TextViewFor"-->
+            <!--android:layout_below="@id/view_pager"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0"-->
+            <!--android:background="#57c485"-->
+            <!--android:textColor="#eee"-->
+            <!--android:text="For: "-->
+            <!--android:textSize="20sp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/TextViewNama"-->
+            <!--android:layout_below="@id/TextViewFor"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="0"-->
+        <!--android:textSize="32sp"-->
+        <!--android:background="#57c485"-->
+        <!--android:paddingLeft="16px"-->
+        <!--android:textColor="#eee"-->
+        <!--android:paddingRight="16px"-->
+        <!--android:textAlignment="center"-->
+        <!--android:text="Salsabilla Maeris Pandita"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/TextViewSelamat"-->
+            <!--android:layout_below="@id/TextViewNama"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="0"-->
+        <!--android:textSize="23sp"-->
+        <!--android:background="#57c485"-->
+        <!--android:textColor="#eee"-->
+        <!--android:textAlignment="center"-->
+        <!--android:text="Selamat Ulang Tahun yang ke-20!"/>-->
+
+        </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
